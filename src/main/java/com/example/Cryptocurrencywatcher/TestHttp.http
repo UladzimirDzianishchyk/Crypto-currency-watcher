@@ -1,0 +1,23 @@
+#####Get all coins
+
+GET http://localhost:8080/api/v1/coins
+Content-Type: application/json
+
+#####Get coin price
+
+GET http://localhost:8080/api/v1/coins/BTC
+Content-Type: application/json
+
+#####Get exception
+
+GET http://localhost:8080/api/v1/coins/noname
+Content-Type: application/json
+
+###
+
+#####Reg price
+
+POST http://localhost:8080/api/v1/users?userName=Ben&symbol=BTC
+Content-Type: application/json
+
+###
